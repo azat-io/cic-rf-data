@@ -1,0 +1,15 @@
+# Node.js / NPM
+node_modules
+npm-debug.log
+
+# Yarn
+yarn-error.log
+
+# Parser
+parser
+orig
+cik.sqlite
+
+# Editor
+[._]sw[a-p]
+*~

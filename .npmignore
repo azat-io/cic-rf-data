@@ -1,0 +1,23 @@
+# Node.js / NPM
+node_modules
+npm-debug.log
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Parser
+parser
+orig
+cik.sqlite
+
+# Dot files
+.editorconfig
+.eslintrc
+.gitignore
+build.js
+makefile
+
+# Editor
+[._]sw[a-p]
+*~

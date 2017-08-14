@@ -17,10 +17,28 @@ moscow:
 	node ./build --region=moscow-city
 	make clean
 
+nnovgorod:
+	python2 ./parser/down.py --region=nnov
+	make generate
+	node ./build --region=nnovgorod
+	make clean
+
+novosibirsk:
+	python2 ./parser/down.py --region=novosibirsk
+	make generate
+	node ./build --region=novosibirsk
+	make clean
+
 st-petersburg:
 	python2 ./parser/down.py --region=st-petersburg
 	make generate
 	node ./build --region=st-petersburg
+	make clean
+
+sverdlovsk:
+	python2 ./parser/down.py --region=sverdlovsk
+	make generate
+	node ./build --region=sverdlovsk
 	make clean
 
 tatarstan:
